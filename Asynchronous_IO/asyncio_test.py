@@ -10,6 +10,6 @@ def hello():
 # 获取EventLoop:
 loop = asyncio.get_event_loop()
 
-# 执行coroutine（协同程序）
+# 执行coroutine（协同程序 ）
 loop.run_until_complete(hello())
 loop.close()
